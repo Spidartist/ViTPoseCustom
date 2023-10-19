@@ -8,9 +8,9 @@ import warnings
 
 import mmcv
 import torch
-from mmcv import Config, DictAction
-from mmcv.runner import get_dist_info, init_dist, set_random_seed
-from mmcv.utils import get_git_hash
+from mmengine.config import Config
+# from mmcv.runner import get_dist_info, init_dist, set_random_seed
+# from mmcv.utils import get_git_hash
 
 from mmpose import __version__
 from mmpose.apis import init_random_seed, train_model
